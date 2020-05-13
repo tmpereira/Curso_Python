@@ -1,3 +1,8 @@
+'''
+Escreva um script que leia a quantidade de dias,horas,
+minutos e segundos para o usuário. Calcule o total em
+segundos.
+'''
 dias = int(input('digite o numero de dias '))
 horas = int(input('digite o numero de horas'))
 minutos = int(input('digite o numero de minutos'))
