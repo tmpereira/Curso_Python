@@ -2,6 +2,8 @@
 Crie uma rotina que solicite ao usuário dois lados de um
 triângulo e ângulo , em graus, entre eles e retorna o
 comprimento do terceiro lado. Use a lei dos cossenos
+bfdnçbdsflbs
+bfadbnpsb[s
 '''
 
 
