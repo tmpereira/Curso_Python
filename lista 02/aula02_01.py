@@ -5,7 +5,7 @@ comprimento do terceiro lado. Use a lei dos cossenos
 '''
 
 
-mport math as m
+import math as m
 a = float(input('digite o valor do lado a do triangulo'))
 b = float(input('digite o valor do lado b do triangulo'))
 angle = float(input('digite o angulo em graus'))
