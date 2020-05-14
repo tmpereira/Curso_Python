@@ -4,7 +4,6 @@ triângulo e ângulo , em graus, entre eles e retorna o
 comprimento do terceiro lado. Use a lei dos cossenos
 '''
 
-
 import math as m
 a = float(input('digite o valor do lado a do triangulo'))
 b = float(input('digite o valor do lado b do triangulo'))
