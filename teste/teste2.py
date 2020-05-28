@@ -1,7 +1,6 @@
-contato ={
-    'nome':'thiago',
-    'sobrenome':'pereira',
-    'cpf':123456789
-}
-
-print(contato.items())
+lista = ['joao','maria','ana','thiago']
+print(lista)
+lista.pop(0)
+print(lista)
+lista.remove('thiago')
+print(lista)

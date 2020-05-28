@@ -1,0 +1,23 @@
+lista =[]
+newnome = 's'
+maior = 0
+menor = 10
+i = 0
+soma = 0
+while(newnome == 's'):
+    i += 1
+    nome = input('digite o nome do aluno')
+    lista.append(nome)
+    nota = float(input('digite a nota do aluno'))
+    soma += nota
+    lista.append(nota)
+    if ( nota > maior):
+        maior = nota
+        maior_nome = nome
+    if (nota < menor):
+        menor = nota;
+        menor_nome = nome
+    newnome = input('deseja cadastrar um novo aluno [s/n]')
+print(f'o aluno {menor_nome} teve a menor nota ({menor}) ')
+print(f'o aluno {maior_nome} teve a maior nota ({maior}) ')
+print(f'a media da p1 da sala foi de {soma/i}')
