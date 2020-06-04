@@ -9,9 +9,10 @@ b. Qual é o peso médio das pessoas
 c. Qual é a altura média das pessoas
 d. Qual é IMC médio das pessoas
 '''
+
 npessoas = int(input('digite a quantidade de pesssoas que deseja cadastrar: '))
 lista =[]
-pessoa ={}
+pessoa = {}
 saltura = speso = simc = 0
 for i in range(0,npessoas):
     print(f'digite as informações da {i+1} pessoa ')
